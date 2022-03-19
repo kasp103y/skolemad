@@ -11,6 +11,15 @@
   --btn-warning: #ffc700;
   --white: #fff;
 
+  /*Border-radius*/
+  --border-rounded: 0.5rem;
+  --border-round-full: 999px;
+
+  /*Box-shadow*/
+  --shadow-sm: 8px 8px 30px black;
+  --shadow-md: 16px 16px 30px black;
+  --shadow-lg: 32px 32px 30px black;
+
   /*Spacing*/
   --spacing-1: 0.5rem;
   --spacing-2: 1rem;
