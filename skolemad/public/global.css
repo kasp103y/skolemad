@@ -1,4 +1,13 @@
 :root {
+  --primary: #55c000;
+  --background: #f2f6ee;
+  --box-color: #e7f3de;
+  --accent: #7a9460;
+  --font: #183500;
+  --btn-danger-font: #b70000;
+  --btn-danger: #ffd9d9;
+  --btn-warning: #ffc700;
+  --white: #fff;
 }
 
 img {
