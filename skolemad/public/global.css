@@ -1,0 +1,13 @@
+:root {
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  pad: 0;
+  box-sizing: border-box;
+}
