@@ -33,7 +33,7 @@
 </div>
 
 <style>
-  @media screen (min-width: 800px) {
+  @media screen and (min-width: 800px) {
     div {
       display: flex;
     }
