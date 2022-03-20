@@ -2,10 +2,29 @@
   import "carbon-components-svelte/css/all.css";
   import { Accordion, AccordionItem } from "carbon-components-svelte";
   import Hero from "./components/Hero.svelte";
-  let page = "front";
+
   import Button from "./components/Button.svelte";
+  import Bestil from "./Bestil.svelte";
+  import NavBar from "./NavBar.svelte";
+  import Konto from "./Konto.svelte";
+  import Home from "./Home.svelte";
+  let page = "front";
 </script>
 
+<NavBar>
+  <a href="#/home" on:click={() => (page = "home")}>Home </a>
+  <a href="#/bestil" on:click={() => (page = "bestil")}>Bestil </a>
+  <a href="#/konto" on:click={() => (page = "konto")}>Konto </a>
+</NavBar>
+<h1>Hallo {page}!</h1>
+
+{#if page === "home"}
+  <Home />
+{:else if page === "konto"}
+  <Konto />
+{:else if page === "bestil"}
+  <Bestil />
+{/if}
 <main>
   <Hero />
   <Accordion>
