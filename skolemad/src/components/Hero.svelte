@@ -29,6 +29,6 @@
   }
 
   div {
-    max-width: 20vw;
+    max-width: 20rem;
   }
 </style>
