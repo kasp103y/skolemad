@@ -1,13 +1,13 @@
 <script>
-  export let name = "Slim Shady";
   import "carbon-components-svelte/css/all.css";
   import { Accordion, AccordionItem } from "carbon-components-svelte";
+  import Hero from "./components/Hero.svelte";
 </script>
 
 <main>
-  <h1>Hi, my name is {name}</h1>
+  <Hero />
   <Accordion>
-    <AccordionItem title="Natural Language Classifier">
+    <AccordionItem title="Kunden">
       <p>
         Natural Language Classifier uses advanced natural language processing
         and machine learning techniques to create custom classification models.
@@ -15,13 +15,13 @@
         for the inputted text.
       </p>
     </AccordionItem>
-    <AccordionItem title="Natural Language Understanding">
+    <AccordionItem title="Leverandøren">
       <p>
         Analyze text to extract meta-data from content such as concepts,
         entities, emotion, relations, sentiment and more.
       </p>
     </AccordionItem>
-    <AccordionItem title="Language Translator">
+    <AccordionItem title="Modtageren">
       <p>
         Translate text, documents, and websites from one language to another.
         Create industry or region-specific translations via the service's
