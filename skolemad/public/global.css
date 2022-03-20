@@ -82,3 +82,8 @@ img {
   pad: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "rubik";
+  src: url(fonts/rubik-variablefont_wght-webfont.woff2);
+}
