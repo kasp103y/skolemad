@@ -3,17 +3,8 @@
   import { Accordion, AccordionItem } from "carbon-components-svelte";
   import Hero from "./components/Hero.svelte";
   let page = "front";
+  import Button from "./components/Button.svelte";
 </script>
-
-<NavBar>
-  <a href="#/konto" on:click={() => (page = "Konto")}>Konto </a>
-</NavBar>
-<h1>Hello {page}!</h1>
-{#if page === "bestil"}
-  <Bestil />
-{:else if page === "konto"}
-  <Konto />
-{/if}
 
 <main>
   <Hero />
