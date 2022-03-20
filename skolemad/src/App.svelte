@@ -10,9 +10,9 @@
 
 <NavBar>
   <a href="#/bestil" on:click={() => (page = "bestil")}>Bestil </a>
-  <a href="#/konto" on:click={() => (page = "Konto")}>Konto </a>
+  <a href="#/konto" on:click={() => (page = "konto")}>Konto </a>
 </NavBar>
-<h1>Hello {page}!</h1>
+
 {#if page === "bestil"}
   <Bestil />
 {:else if page === "konto"}
