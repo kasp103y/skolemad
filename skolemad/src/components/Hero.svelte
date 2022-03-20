@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 90vh;
-    background-position: 10% 37%;
+    background-position: 58% 37%;
     display: grid;
     justify-content: center;
     align-content: center;

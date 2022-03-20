@@ -89,6 +89,10 @@ img {
 }
 
 /************Mobil headings******************/
+body {
+  color: var(--font);
+  background-color: var(--background);
+}
 
 h1 {
   font-size: var(--heading-one-m);
@@ -107,4 +111,16 @@ h3 {
 h4 {
   font-size: var(--heading-four-m);
   line-height: var(--heading-four-m-lh);
+}
+
+p {
+  font-size: var(--paragraf);
+  margin: var(--spacing-16) 0;
+}
+
+.p-lead {
+  font-size: var(--p-lead-m);
+  line-height: var(--p-lead-m-lh);
+  font-weight: 700;
+  margin-bottom: var(--spacing-4);
 }
